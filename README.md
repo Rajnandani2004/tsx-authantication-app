@@ -1,6 +1,3 @@
-Here is a README for your project, including setup instructions, how to run it, and a brief overview of the code:
-
----
 
 # My TypeScript React Authentication App
 
@@ -44,17 +41,6 @@ npm start
 
 This will start the React development server and open the application in your default web browser. If the page does not open automatically, visit `http://localhost:3000/` in your browser.
 
-### 4. Run the app in production (optional):
-
-For production, you can build the app and serve it using the following commands:
-
-```bash
-npm run build
-npm install -g serve
-serve -s build
-```
-
-Visit `http://localhost:5000/` to see the production build.
 
 ## How it works:
 
@@ -78,20 +64,3 @@ Visit `http://localhost:5000/` to see the production build.
 /package.json    - NPM configuration file
 /tsconfig.json   - TypeScript configuration file
 ```
-
-## Troubleshooting:
-
-- **Issue: Localhost is not opening in the browser:**
-  - Ensure that the server is running on `http://localhost:3000` by checking the terminal output for errors.
-  - Try opening the page manually by typing `http://localhost:3000` in your browser.
-
-- **Issue: Dependencies not found:**
-  - Ensure that you've run `npm install` in the project directory to install all the required dependencies.
-
-## License:
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify this README to include any additional features or details specific to your project!
